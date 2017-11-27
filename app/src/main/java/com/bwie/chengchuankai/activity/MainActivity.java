@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements YueKaoView {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+		//注释
         banner = (Banner) findViewById(R.id.ban);
         rv = (RecyclerView) findViewById(R.id.rv);
         ButterKnife.bind(this);
